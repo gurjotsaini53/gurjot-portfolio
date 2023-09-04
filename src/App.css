@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background:#2D2E32 ;
+  color: white;
+
+}
+
+
+/* navbar */
+
+nav {
+  background-color: transparent;
+  top: 0;
+  position: sticky !important;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  background-color: transparent;
+}
+
+nav .name{
+  font-family: code;
+  margin-left: 100px ;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+ .nav-link{
+  font-family: code !important;
+  color: white !important;
+  font-size: 20px !important ;
+
+  
+}
+
+.nav-items-links{
+  margin-right: 200px !important;
+}
+
+/* banner */
+
+
+.banner-main{
+  height: 100vh;
+  display: flex;
+  padding: 100px;
+  
+/* flex-wrap: wrap; */
+
+justify-content: space-between;
+
+}
+
+.banner-main .left,.right {
+  /* width: 30%; */
+  flex: 1;
+  margin: 10px;
+ 
+}
+
+.banner-main .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-main .right img#myimg{
+  width: 500px;
+  height: 700px;
+
+  border-radius: 100%;
+  
+}
+
+.banner-main .left{
+  
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  left: 0;
+}
+
+
+.banner-main .left .personal-info .profile{
+
+  font-size: 18px;
+  display: inline-block;
+  background: #C63D2F;
+  border-radius: 5px;
+   padding: 4px;
+}
+
+.banner-main .left .personal-info .msg{
+  font-size: 28px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.banner-main .left .personal-info .name{
+  font-size: 54px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* About */
+
+
